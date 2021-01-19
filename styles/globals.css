@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, li, ul, ol, span, p{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  box-sizing: border-box;
+}
+
+code {
+  color: #476582;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+  /* font-size: 1.5em; */
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace !important;
+}
+
+div[class~='language-html']:before {
+  content: 'html';
+  position: absolute;
+  z-index: 3;
+  top: .8em;
+  right: 1em;
+  font-size: .75rem;
+  color: hsla(0,0%,100%,.4);
+}
+div[class~='language-js']:before {
+  content: 'js';
+  position: absolute;
+  z-index: 3;
+  top: .8em;
+  right: 1em;
+  font-size: .75rem;
+  color: hsla(0,0%,100%,.4);
+}
+div[class~='language-json']:before {
+  content: 'json';
+  position: absolute;
+  z-index: 3;
+  top: .8em;
+  right: 1em;
+  font-size: .75rem;
+  color: hsla(0,0%,100%,.4);
+}
+
+div[class*='language-'].line-numbers-mode:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 100%;
+  border-radius: 6px 0 0 6px;
+  border-right: 1px solid rgba(0, 0, 0, 0.66);
+  background-color: #35414f;
+}
+
+div[class*=language-].line-numbers-mode .line-numbers-wrapper {
+  position: absolute;
+  top: 0;
+  width: 3.5rem;
+  text-align: center;
+  color: hsla(0,0%,100%,.3);
+  padding: 1.25rem 0;
+  line-height: 1.4;
+}
+
+div[class*=language-].line-numbers-mode:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 100%;
+  border-radius: 6px 0 0 6px;
+  border-right: 1px solid rgba(0,0,0,.66);
+  background-color: #282c34;
+}
