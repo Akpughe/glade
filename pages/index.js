@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 
       <MainLayout>
-        <main className="pl-48 w-8/12 overflow-y-scroll m-auto m-0">
+        <main className="w-full overflow-y-scroll m-auto m-0 sm:pl-48 sm:w-8/12">
           <div className="py-32 px-10">
             <h1 className="text-5xl mb-12">Guide</h1>
             <h2 className="text-3xl font-medium mb-8">Account Setup</h2>

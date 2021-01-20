@@ -32,7 +32,7 @@ const Navbar = () => {
         <Navbrand/>
       </div>
 
-      <div className="flex text-gray-600">
+      <div className="hidden sm:flex text-gray-600">
         <Link href="/">
           <a className="font-light uppercase mr-8 hover:text-blue-500 text-base hover:font-bold">
             Home

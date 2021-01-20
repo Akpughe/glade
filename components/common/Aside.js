@@ -2,7 +2,7 @@ import React from 'react';
 
 const Aside = () => {
   return (
-    <nav className="fixed bg-white border-r top-20 w-80">
+    <nav className="hidden bg-white border-r top-20 pt-16 w-80 sm:flex sm:fixed">
       <div className="p-5">
         <div class="flex flex-col space-y-4">
           {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
