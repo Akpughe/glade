@@ -40,6 +40,10 @@ const Aside = () => {
 
           </ul>
         </div>
+        {/* <div class="absolute inset-y-0 left-0 flex items-center sm:hidden"> */}
+            {/* <!-- Mobile menu button--> */}
+            
+          {/* </div> */}
       </div>
     </nav>
   );
