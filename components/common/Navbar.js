@@ -105,7 +105,7 @@ const MobileNav = () => {
 };
 
 const Navbar = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const handleShow = () => {
     setShow(!show);
